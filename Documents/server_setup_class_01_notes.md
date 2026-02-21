@@ -76,7 +76,7 @@ Now, open your browser and navigate to http://localhost:3000
 
 ## Output
 
-![class_01](./class_01.jpeg)
+![class_01](./class_01.webp)
 
 Install nodemon (auto restart server)
 ```bash
