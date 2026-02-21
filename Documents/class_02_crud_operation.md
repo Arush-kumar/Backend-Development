@@ -51,13 +51,19 @@ npm install
 ### 3️⃣ Run the Server
 
 ```bash
-node app.js
+node server.js
 ```
 
 Or using nodemon:
 
 ```bash
-npx nodemon app.js
+npx nodemon server.js
+```
+
+Or using script in package.json:
+
+```bash
+npm run dev
 ```
 
 Server runs at:
@@ -124,6 +130,10 @@ Noted Added Successfully.
 ---
 
 ##  4. Delete a Note
+- here id like as array index
+- notes = ["note1", "note2"]
+note1 is at 0 index and note2 is at 1 index
+---
 
 ### DELETE /notes/:id
 
