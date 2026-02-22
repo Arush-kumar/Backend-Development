@@ -128,3 +128,13 @@ Now server restarts automatically when you save changes.
 
 ---
 This script is alternative of nodemon to run the server automatically.
+
+---
+Go to next class for further reading.
+
+class_02 link here: [class_02](./class_02_crud_operation.md)
+
+class_03 link here: [class_03](./class_03_crud_with_status_code.md)
+
+Documentation link here:
+[View All Docs](../Documents/)

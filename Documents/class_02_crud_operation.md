@@ -296,3 +296,11 @@ After completing this project, you understand:
 - API testing using Postman
 
 ---
+
+
+Go to class_03_crud_with_status_code.md for further reading.
+
+class_03 link here: [class_03](./class_03_crud_with_status_code.md)
+
+Documentation link here:
+[View All Docs](../Documents/)
