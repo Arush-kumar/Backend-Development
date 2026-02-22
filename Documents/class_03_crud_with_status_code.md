@@ -324,4 +324,7 @@ After completing this project, you understand:
 
 Go to class_02_crud_operation.md for further reading.
 
-[Documentation](./class_02_crud_operation.md)
+class_02 link here: [class_02](./class_02_crud_operation.md)
+
+Documentation link here:
+[View All Docs](../Documents/)
