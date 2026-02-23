@@ -1,14 +1,15 @@
-const mongoose = require('mongoose')
+const mongoose = require("mongoose")
 
 const userSchema = new mongoose.Schema({
-  username: String,
-  email: {
-    type: String,
-    unique: [ true, "Email is already taken."]
-  },
-  password: String
+    name: String,
+    email: {
+        type: String,
+        unique: [ true, "With this email user account already exists" ]
+    },
+    password: String,
 })
 
-const UserModel = mongoose.model('users', userSchema)
+const userModel = mongoose.model("users", userSchema)
 
-module.exports = UserModel
+
+module.exports = userModel
