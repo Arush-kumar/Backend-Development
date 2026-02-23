@@ -4,6 +4,7 @@ const jwt = require("jsonwebtoken")
 const authRouter = express.Router()
 const crypto = require("crypto")
 
+
 /**
  * /api/auth/register
  */
@@ -39,10 +40,7 @@ authRouter.post("/register", async (req, res) => {
         user,
         token
     })
-}
-
-)
-
+})
 
 /**
  * POST /api/auth/login
