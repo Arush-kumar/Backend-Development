@@ -14,7 +14,7 @@ authRouter.post('/login', authController.loginController)
 /** 
  * POST /api/auth/logout
 */
-// authRouter.post('/logout', authController.logoutController)
+authRouter.post('/logout', authController.logoutController)
 
 /** 
  * @route GET /api/auth/get-me

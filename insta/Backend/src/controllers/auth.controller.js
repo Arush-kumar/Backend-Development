@@ -63,6 +63,14 @@ const loginController = async (req, res) => {
 };
 
 
+const logoutController = async (req, res) => {
+
+  res.clearCookie("token")
+
+  res.status(200).json({
+    message: "User LoggedOut Successfully."
+  })
+}
 
 const getMeController = async (req, res) => {
 
@@ -82,5 +90,6 @@ const getMeController = async (req, res) => {
 
 export {
   loginController,
-  getMeController
+  getMeController,
+  logoutController
 };
