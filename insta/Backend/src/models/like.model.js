@@ -8,6 +8,7 @@ const likeSchema = new mongoose.Schema({
   },
   user: {
     type: String,
+    post: "users",
     required: [ true, "username is required for creating a like" ] 
   }
 }, {

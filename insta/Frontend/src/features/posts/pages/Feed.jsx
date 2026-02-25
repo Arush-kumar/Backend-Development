@@ -5,7 +5,7 @@ import { usePost } from '../hook/usePost'
 
 const Feed = () => {
 
-    const { feed, handleGetFeed,loading } = usePost()
+    const { feed, handleGetFeed, loading } = usePost()
 
     useEffect(() => { 
         handleGetFeed()

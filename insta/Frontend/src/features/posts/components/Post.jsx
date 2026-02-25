@@ -1,5 +1,10 @@
 
 const Post = ({ user, post }) => {
+
+  // console.log(user, post);
+  // console.log(post.isLiked);
+  
+  
   return (
     <>
       <div className="post">

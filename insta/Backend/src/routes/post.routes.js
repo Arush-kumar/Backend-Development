@@ -1,9 +1,13 @@
 import express from 'express';
-const postRouter = express.Router();
-import * as postController from '../controllers/post.controller.js';
 import multer from 'multer';
-const upload = multer({ storage: multer.memoryStorage() });
+const storage = multer.memoryStorage();
+const upload = multer({ 
+    storage: storage,
+    limits: { fileSize: 5 * 1024 * 1024 } // 5MB limit add karke dekhein
+});
 import identifyUser from '../middlewares/auth.middleware.js';
+import * as postController from '../controllers/post.controller.js';
+const postRouter = express.Router();
 
 
 /**

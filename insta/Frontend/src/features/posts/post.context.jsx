@@ -11,7 +11,8 @@ export const PostContextProvider = ({ children }) => {
 
 
     return (
-        <PostContext.Provider value={{ loading, setLoading, post, setPost, feed, setFeed }}>
+        <PostContext.Provider 
+        value={{ loading, setLoading, post, setPost, feed, setFeed }}>
             {children}
         </PostContext.Provider>
     )
