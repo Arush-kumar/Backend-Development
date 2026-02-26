@@ -12,3 +12,9 @@ export async function getFeed() {
     
   return response.data
 }
+
+export async function toggleLike(postId) {
+  const response = await api.post(`/like/${postId}`);
+  // { message, isLiked } aa raha hai backend se
+  return response.data;
+}
