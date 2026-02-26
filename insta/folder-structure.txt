@@ -1,0 +1,66 @@
+insta/
+├─ Backend/
+│  ├─ src/
+│  │  ├─ config/
+│  │  │  └─ database.js
+│  │  ├─ controllers/
+│  │  │  ├─ auth.controller.js
+│  │  │  ├─ post.controller.js
+│  │  │  └─ user.controller.js
+│  │  ├─ middlewares/
+│  │  │  └─ auth.middleware.js
+│  │  ├─ models/
+│  │  │  ├─ follow.model.js
+│  │  │  ├─ like.model.js
+│  │  │  ├─ post.model.js
+│  │  │  └─ user.model.js
+│  │  ├─ routes/
+│  │  │  ├─ auth.routes.js
+│  │  │  ├─ post.routes.js
+│  │  │  └─ user.routes.js
+│  │  └─ app.js
+│  ├─ .env
+│  ├─ .gitignore
+│  ├─ package-lock.json
+│  ├─ package.json
+│  └─ server.js
+└─ Frontend/
+   ├─ src/
+   │  ├─ features/
+   │  │  ├─ auth/
+   │  │  │  ├─ components/
+   │  │  │  ├─ hooks/
+   │  │  │  │  └─ useAuth.js
+   │  │  │  ├─ pages/
+   │  │  │  │  ├─ Login.jsx
+   │  │  │  │  └─ Register.jsx
+   │  │  │  ├─ services/
+   │  │  │  │  └─ auth.api.js
+   │  │  │  ├─ style/
+   │  │  │  │  └─ form.scss
+   │  │  │  └─ auth.context.jsx
+   │  │  ├─ posts/
+   │  │  │  ├─ components/
+   │  │  │  │  └─ Post.jsx
+   │  │  │  ├─ hook/
+   │  │  │  │  └─ usePost.js
+   │  │  │  ├─ pages/
+   │  │  │  │  └─ Feed.jsx
+   │  │  │  ├─ services/
+   │  │  │  │  └─ post.api.js
+   │  │  │  ├─ style/
+   │  │  │  │  └─ feed.scss
+   │  │  │  └─ post.context.jsx
+   │  │  └─ shared/
+   │  │     ├─ button.scss
+   │  │     └─ global.scss
+   │  ├─ App.jsx
+   │  ├─ app.routes.jsx
+   │  └─ main.jsx
+   ├─ .gitignore
+   ├─ eslint.config.js
+   ├─ index.html
+   ├─ package-lock.json
+   ├─ package.json
+   ├─ README.md
+   └─ vite.config.js
